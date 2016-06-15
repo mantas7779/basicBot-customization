@@ -57,7 +57,7 @@
         language: "english",
         chatLink: "https://rawgit.com/mantas7779/basicBot/master/lang/lt.json",
         startupCap: 50, // 1-200
-        startupVolume: 10, // 0-100
+        startupVolume: 15, // 0-100
         startupEmoji: enable, // true or false
         maximumAfk: 10000000,
         afkRemoval: false,

@@ -56,6 +56,9 @@
         botName: "Lietuvos-Botas",
         language: "english",
         chatLink: "https://rawgit.com/mantas7779/basicBot/master/lang/lt.json",
+        startupCap: null, // 1-200
+        startupVolume: null, // 0-100
+        startupEmoji: null, // true or false
         maximumAfk: 10000000,
         afkRemoval: false,
         maximumDc: 120,

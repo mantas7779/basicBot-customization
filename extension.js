@@ -53,20 +53,18 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Padėjėjas Bobas",
+         var basicBot = {
+        botName: "Lietuvos-Botas",
         language: "english",
-        startupCap: 50, // 1-200
-        startupVolume: 13, // 0-100
-        startupEmoji: true, // true or false
         chatLink: "https://rawgit.com/mantas7779/basicBot/master/lang/lt.json",
-        maximumAfk: 120,
+        maximumAfk: 10000000,
         afkRemoval: false,
-        maximumDc: 1000000,
+        maximumDc: 120,
         bouncerPlus: true,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
-        cycleGuard: true,
+        cycleGuard: false,
         maximumCycletime: 10,
         voteSkip: true,
         voteSkipLimit: 15,
@@ -77,36 +75,36 @@
         usercommandsEnabled: true,
         lockskipPosition: 1,
         lockskipReasons: [
-            ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
-        ],
-        afkpositionCheck: 15,
-        afkRankCheck: "ambassador",
-        motdEnabled: false,
-        motdInterval: 5,
-        motd: "Temporary Message of the Day",
-        filterChat: true,
-        etaRestriction: false,
-        welcome: true,
-        opLink: null,
-        rulesLink: null,
-        themeLink: null,
-        fbLink: "https://www.facebook.com/Už-Lietuvą-630256890371211",
-        youtubeLink: null,
-        website: null,
-        intervalMessages: [],
-        messageInterval: 5,
-        songstats: false,
-        commandLiteral: "!",
-        blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
-        }
+                ["theme", "This song does not fit the room theme. "],
+                ["op", "This song is on the OP list. "],
+                ["history", "This song is in the history. "],
+                ["mix", "You played a mix, which is against the rules. "],
+                ["sound", "The song you played had bad sound quality or no sound. "],
+                ["nsfw", "The song you contained was NSFW (image or sound). "],
+                ["unavailable", "The song you played was not available for some users. "]
+            ],
+            afkpositionCheck: null,
+            afkRankCheck: "user",
+            motdEnabled: false,
+            motdInterval: 5,
+            motd: "Temporary Message of the Day",
+            filterChat: true,
+            etaRestriction: false,
+            welcome: true,
+            opLink: null,
+            rulesLink: http://prntscr.com/bb3yr8,
+            themeLink: null,
+            fbLink: https://www.facebook.com/Už-Lietuvą-630256890371211,
+            youtubeLink: null,
+            website: null,
+            intervalMessages: [],
+            messageInterval: 5,
+            songstats: true,
+            commandLiteral: "!",
+            blacklists: {
+                NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            }
     }));
 
     //Start the bot and extend it when it has loaded.

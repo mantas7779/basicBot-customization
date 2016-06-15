@@ -53,7 +53,6 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-         var basicBot = {
         botName: "Lietuvos-Botas",
         language: "english",
         chatLink: "https://rawgit.com/mantas7779/basicBot/master/lang/lt.json",

@@ -53,60 +53,58 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        var basicBot = {
+        botName: "Lietuvos-Botas",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
-        maximumAfk: 120,
-        afkRemoval: true,
-        maximumDc: 60,
+        chatLink: "https://rawgit.com/mantas7779/basicBot/master/lang/lt.json",
+        maximumAfk: 10000000,
+        afkRemoval: false,
+        maximumDc: 120,
         bouncerPlus: true,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
-        cycleGuard: true,
+        cycleGuard: false,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 10,
+        voteSkip: true,
+        voteSkipLimit: 15,
         timeGuard: true,
-        maximumSongLength: 10,
-        autodisable: true,
+        maximumSongLength: 6.30,
+        autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 3,
+        lockskipPosition: 1,
         lockskipReasons: [
-            ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
-        ],
-        afkpositionCheck: 15,
-        afkRankCheck: "ambassador",
-        motdEnabled: false,
-        motdInterval: 5,
-        motd: "Temporary Message of the Day",
-        filterChat: true,
-        etaRestriction: false,
-        welcome: true,
-        opLink: null,
-        rulesLink: null,
-        themeLink: null,
-        fbLink: null,
-        youtubeLink: null,
-        website: null,
-        intervalMessages: [],
-        messageInterval: 5,
-        songstats: true,
-        commandLiteral: "!",
-        blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
-        }
+                ["theme", "This song does not fit the room theme. "],
+                ["op", "This song is on the OP list. "],
+                ["history", "This song is in the history. "],
+                ["mix", "You played a mix, which is against the rules. "],
+                ["sound", "The song you played had bad sound quality or no sound. "],
+                ["nsfw", "The song you contained was NSFW (image or sound). "],
+                ["unavailable", "The song you played was not available for some users. "]
+            ],
+            afkpositionCheck: null,
+            afkRankCheck: "user",
+            motdEnabled: false,
+            motdInterval: 5,
+            motd: "Temporary Message of the Day",
+            filterChat: true,
+            etaRestriction: false,
+            welcome: true,
+            opLink: null,
+            rulesLink: http://prntscr.com/bb3yr8,
+            themeLink: null,
+            fbLink: https://www.facebook.com/Už-Lietuvą-630256890371211,
+            youtubeLink: null,
+            website: null,
+            intervalMessages: [],
+            messageInterval: 5,
+            songstats: true,
+            commandLiteral: "!",
+            blacklists: {
+                NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            }
     }));
 
     //Start the bot and extend it when it has loaded.

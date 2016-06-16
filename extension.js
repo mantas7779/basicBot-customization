@@ -110,6 +110,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/mantas7779/basicBot-customization/patch-5/main.js', extend);
+    $.getScript('https://rawgit.com/mantas7779/basicBot/mantas7779-patch-10-1/basicBot.js', extend);
 
 }).call(this);

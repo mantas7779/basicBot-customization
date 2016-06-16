@@ -286,7 +286,7 @@
                     basicBot.room.roulette.rouletteStatus = true;
                     basicBot.room.roulette.countdown = setTimeout(function () {
                         basicBot.room.roulette.endRoulette();
-                    }, 60 * 1000);
+                    }, 120 * 1000);
                     API.sendChat(basicBot.chat.isopen);
                 },
                 endRoulette: function () {
@@ -300,7 +300,7 @@
                     API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: pos}));
                     setTimeout(function (winner, pos) {
                         basicBot.userUtilities.moveUser(winner, pos, false);
-                    }, 1 * 1000, winner, pos);
+                    }, 1 * 1, winner, pos);
                 }
             }
         },
@@ -1035,11 +1035,12 @@
                     }
                     else cmd = chat.message.substring(0, space);
                 }
-                else return false;
+                 else return false;
                 var userPerm = basicBot.userUtilities.getPermission(chat.uid);
                 //console.log("name: " + chat.un + ", perm: " + userPerm);
-                if (chat.message !== "!play") {
+                if (chat.message !== basicBot.settings.commandLiteral + 'play' && chat.message !== basicBot.settings.commandLiteral + "leave") {
                     if (userPerm === 0 && !basicBot.room.usercommand) return void (0);
+                    if (!basicBot.room.allcommand) return void (0);
                 }
                 if (chat.message === '!eta' && basicBot.settings.etaRestriction) {
                     if (userPerm < 2) {

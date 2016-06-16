@@ -1038,9 +1038,8 @@
                 else return false;
                 var userPerm = basicBot.userUtilities.getPermission(chat.uid);
                 //console.log("name: " + chat.un + ", perm: " + userPerm);
-                if (chat.message !== "!join" && chat.message !== "!leave") {
+                if (chat.message !== "!play") {
                     if (userPerm === 0 && !basicBot.room.usercommand) return void (0);
-                    if (!basicBot.room.allcommand) return void (0);
                 }
                 if (chat.message === '!eta' && basicBot.settings.etaRestriction) {
                     if (userPerm < 2) {

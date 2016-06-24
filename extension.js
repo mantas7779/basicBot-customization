@@ -91,7 +91,7 @@
         motdInterval: 5,
         motd: "Temporary Message of the Day",
         filterChat: false,
-        etaRestriction: false,
+        etaRestriction: true,
         welcome: true,
         opLink: null,
         rulesLink: "http://prntscr.com/bb3yr8",

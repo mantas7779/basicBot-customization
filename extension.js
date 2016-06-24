@@ -77,13 +77,11 @@
         usercommandsEnabled: true,
         lockskipPosition: 1,
         lockskipReasons: [
-            ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            ["zanras", "Daina yra absurdiška. "],
+            ["op", "Daina yra per dažnai leidžiama šiame kambaryje. "],
+            ["history", "Ši daina neseniai grojo. "],
+            ["nsfw", "Daina kurią paleidote buvo NSFW (erotika arba per daug keiksmažodžių). "],
+            ["negroja", "Daina kurią paleidote negroja. "]
         ],
         afkpositionCheck: 0,
         afkRankCheck: "user",

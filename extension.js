@@ -85,7 +85,7 @@
         ],
         afkpositionCheck: 0,
         afkRankCheck: "user",
-        motdEnabled: true,
+        motdEnabled: false,
         motdInterval: 5,
         motd: "!roulette",
         filterChat: false,

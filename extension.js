@@ -75,7 +75,7 @@
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 1,
+        lockskipPosition: 5,
         lockskipReasons: [
             ["zanras", "Daina yra absurdiška. "],
             ["op", "Daina yra per dažnai leidžiama šiame kambaryje. "],

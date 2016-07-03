@@ -73,9 +73,9 @@
         timeGuard: true,
         maximumSongLength: 6.30,
         autodisable: false,
-        commandCooldown: 30,
+        commandCooldown: 10,
         usercommandsEnabled: true,
-        lockskipPosition: 5,
+        lockskipPosition: 3,
         lockskipReasons: [
             ["zanras", "Daina yra absurdiška. "],
             ["op", "Daina yra per dažnai leidžiama šiame kambaryje. "],

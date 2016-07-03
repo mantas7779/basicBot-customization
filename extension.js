@@ -97,8 +97,8 @@
         fbLink: "https://www.facebook.com/Už-Lietuvą-630256890371211",
         youtubeLink: null,
         website: null,
-        intervalMessages: ["!roulette","ruletė paleista"],
-        messageInterval: 1,
+        intervalMessages: ["!roulette","Ruletė paleista! Rašykite !join kad dalyvautumėte!"],
+        messageInterval: 2,
         songstats: false,
         commandLiteral: "!",
         blacklists: {

@@ -87,7 +87,7 @@
         afkRankCheck: "user",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "@everyone čia UŽ LIETUVĄ skype grupė prieinama visiems https://join.skype.com/mFvUty4eBXDO . Iškritai iš DJ eilės? Rašyk !dc sugrįžimui.",
+        motd: "Čia už „Už Lietuvą“ skype pokalbis prieinamas visiems! - https://join.skype.com/mFvUty4eBXDO // Iškritai iš DJ eilės? Rašyk !dc sugrįžimui. ",
         filterChat: false,
         etaRestriction: true,
         welcome: true,

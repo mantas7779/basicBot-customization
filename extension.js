@@ -86,7 +86,7 @@
         afkpositionCheck: 0,
         afkRankCheck: "user",
         motdEnabled: true,
-        motdInterval: 6,
+        motdInterval: 5,
         motd: "@everyone čia UŽ LIETUVĄ skype grupė prieinama visiems https://join.skype.com/mFvUty4eBXDO . Iškritai iš DJ eilės? Rašyk !dc sugrįžimui.",
         filterChat: false,
         etaRestriction: true,
